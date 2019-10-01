@@ -1,6 +1,14 @@
 module.exports = {
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        calajo: {
+          100: "#607D8B",
+          200: "#4B626D",
+          300: "#41545E"
+        }
+      }
+    }
   },
   variants: {},
   plugins: []

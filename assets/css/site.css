@@ -1,8 +1,100 @@
 ---
 ---
 
-@import "tailwindcss/base";
+@tailwind base;
 
-@import "tailwindcss/components";
+@tailwind components;
 
-@import "tailwindcss/utilities";
+@tailwind utilities;
+
+h1 {
+  @apply text-4xl mt-8;
+}
+
+h2 {
+  @apply text-2xl mt-8;
+}
+
+h3 {
+  @apply text-xl mt-8;
+}
+
+ul.list {
+  @apply mt-4 pl-10 list-disc;
+}
+ol.list {
+  @apply mt-4 pl-10 list-decimal;
+}
+
+header li a {
+  @apply text-gray-400;
+}
+
+a {
+  @apply text-blue-500;
+}
+
+p {
+  @apply text-gray-800 mt-4;
+}
+
+svg {
+  @apply inline;
+}
+
+th {
+  @apply py-4 px-6 font-bold uppercase text-sm text-gray-600 border-b border-gray-200;
+}
+
+td {
+  @apply py-4 px-6 text-gray-600 border-b border-gray-200;
+}
+
+.menu-item {
+  @apply block p-4 text-gray-400 border-gray-200;
+}
+
+.active, .menu-item:hover {
+  @apply bg-gray-400 text-calajo-300;
+}
+
+.footer-item {
+  @apply text-gray-500 mr-2;
+}
+
+.footer-item:hover {
+  @apply text-white;
+}
+
+.markdown code {
+  @apply text-black font-mono inline bg-gray-200 px-2 py-1 rounded border-gray-400 border-2;
+}
+.markdown pre code {
+  @apply block break-all whitespace-pre-wrap p-4 mt-2;
+}
+.markdown ul {
+  @apply mt-4 pl-10 list-disc;
+}
+.markdown ol {
+  @apply mt-4 pl-10 list-decimal;
+}
+.markdown li {
+  @apply text-gray-800 mt-2;
+}
+.markdown blockquote {
+  @apply border-l-4 border-gray-300 my-4 p-4 italic;
+}
+.markdown blockquote p {
+  @apply mt-0;
+}
+
+.form-label {
+  @apply block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2;
+}
+.form-field {
+  @apply appearance-none block w-full bg-gray-200 text-gray-700 border
+    border-gray-200 rounded py-3 px-4 mb-3 leading-tight;
+}
+.form-field:focus {
+  @apply outline-none bg-white border-gray-500;
+}
