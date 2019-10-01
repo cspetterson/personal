@@ -59,7 +59,7 @@
     </div>
     <div class="flex-1">
       <div class="p-8 bg-gray-200">
-        <div class="mx-auto max-w-4xl w-full leading-loose py-4">
+        <div class="mx-auto max-w-2xl w-full leading-loose py-4">
           <div class="flex flex-wrap">
             <h2 class="text-4xl mt-0">
               {{ page.title }}
@@ -68,8 +68,10 @@
         </div>
       </div>
       <div class="flex flex-wrap">
-        <div class="mx-auto max-w-4xl w-full leading-loose py-4">
-          {{ content }}
+        <div class="mx-auto max-w-2xl w-full leading-loose py-4">
+          <div class="markdown">
+            {{ content }}
+          </div>
         </div>
       </div>
     </div>
