@@ -1,0 +1,22 @@
+---
+layout: default
+category: now
+
+---
+
+I've recently moved into my first home with my partner, Nay! After a lot of ups
+and down, needing a rewire, needing plastering work, getting stressed, take out
+meals and skip runs; we are in.
+
+Now I'm settling in, I want September to be full of catching up, socialising and
+enjoying time with others.
+[I wrote about my simplistic goals on 200 Words A Day](https://200wordsaday.com/words/social-september-262915d6c3c8ecb28d),
+which included socialising with friends and colleagues, going to meetups and
+getting more involved in my communities; 200WAD and Makerlog.
+
+I want to put on hold my sporadic project work and focus on
+[offering my services](https://200wordsaday.com/words/offering-my-services-260305d66e9077cf9a)
+to helping out new Rails developers with code legibility, performance and
+maintainability. <strong>Please get in touch if you need help with your Rails
+codebases.</strong> That being said, I'll be working on more
+[Calajo](https://calajo.co.uk) projects, including client work.

@@ -38,8 +38,13 @@
           <div class="bg-calajo-300">
             <ul>
               <li>
-                <a href="/" class="menu-item {% if page.url == "/" %} active {% endif %}">
+                <a href="/" class="menu-item {% if page.url == '/' %} active {% endif %}">
                   Home
+                </a>
+              </li>
+              <li>
+                <a href="/articles" class="menu-item {% if page.url == '/articles.html' %} active {% endif %}">
+                  Articles
                 </a>
               </li>
             </ul>
@@ -52,7 +57,9 @@
             Copyright &copy; Craig Petterson 2019
           </p>
           <p class="text-gray-500 text-xs">
-            <!-- Links use class: "footer-item" -->
+            <a href="/thens" class="footer-item">
+              Then
+            </a>
           </p>
         </div>
       </footer>

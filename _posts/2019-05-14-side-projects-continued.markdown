@@ -1,5 +1,8 @@
 ---
 layout: default
+title: Side Projects continued...
+category: article
+tags: ideas
 
 ---
 

@@ -7,6 +7,9 @@ module.exports = {
           200: "#4B626D",
           300: "#41545E"
         }
+      },
+      fill: {
+        white: "#FFF"
       }
     }
   },

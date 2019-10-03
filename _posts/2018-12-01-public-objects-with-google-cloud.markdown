@@ -1,5 +1,7 @@
 ---
 layout: default
+category: article
+tags: technical
 
 ---
 
