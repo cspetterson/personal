@@ -5,10 +5,10 @@ title: Hey, I'm Craig
 ---
 
 {% for post in site.categories['now'] limit: 1 %}
-  <h2 class="text-4xl">
+  <h2>
     Now
   </h2>
-  <p class="-mt-4 font-light text-sm text-gray-600">
+  <p class="-mt-1 font-light text-sm text-gray-600">
     {{ post.date | date: "%B %Y" }}
   </p>
   {{ post.content }}
