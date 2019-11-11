@@ -9,7 +9,8 @@ module.exports = {
         }
       },
       fill: {
-        white: "#FFF"
+        white: "#FFF",
+        calajo: "#607D8B"
       }
     }
   },
