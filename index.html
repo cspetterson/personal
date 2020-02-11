@@ -3,16 +3,16 @@ layout: default
 title: Hey, I'm Craig
 
 ---
-{% for post in site.categories['now'] limit: 1 %}
+{% for post in site.categories['article'] %}
   <h2>
-    Now
+    {{ post.title }}
   </h2>
   <p class="-mt-1 font-light text-sm text-gray-600">
-    {{ post.date | date: "%B %Y" }}
+    {{ post.date | date_to_long_string }}
   </p>
-  {{ post.content }}
+  {{ post.excerpt }}
+  <a href="{{ post.url }}">
+    Read more...
+  </a>
 {% endfor %}
 
-<p>
-  {% include coffee.html %}
-</p>
