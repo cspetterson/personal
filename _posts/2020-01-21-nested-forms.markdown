@@ -70,8 +70,7 @@ they are updating their name and bio too. Our old form needs a nested form;
 It's important to remember that the form needs a new name. You might notice that
 our original form was named `|form|` but out new form is called `|talks_form|`.
 
-We're not out of the woods just yet. We need to update one more thing - our
-controller.
+We're not out of the woods just yet. We still need to update a couple of things;
 
 With a nested form like this, we need to build the object that will be used -
 much in the same way we do for a #new action (eg; `@talk = Talk.new`)
@@ -100,6 +99,10 @@ end
 Now, the params passed through from the form are being permitted and will be
 used to create the relevant records in our database. Note how we've included
 `id` and `user_id` in our `talks_attributes`!
+
+Lastly, we need to add `accepts_nested_attributes_for :talks` to our User model
+to [enable the attribute writer](https://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html)
+for the nested attributes.
 
 With these records saved, we're free to use a user's talks to display anywhere
 we like in the usual manner. We might want to show their own talks on their
