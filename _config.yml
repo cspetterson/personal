@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Craig Petterson
-email: cspetterson@gmail.com
+email: cspetterson@hey.com
 description: >- # this means to ignore newlines until "baseurl:"
   Home base for Craig Petterson. I write about programming, life and my journey
   as a maker, developer and attempted running.
