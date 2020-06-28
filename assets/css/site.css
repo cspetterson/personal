@@ -51,23 +51,15 @@ td {
 }
 
 .menu-item {
-  @apply block p-4 text-gray-400 border-gray-200;
+  @apply block p-4 text-yellow-500 border-gray-200;
 }
 
 .active, .menu-item:hover {
   @apply bg-gray-400 text-calajo-300;
 }
 
-.footer-item {
-  @apply text-gray-500 mr-2;
-}
-
-.footer-item:hover {
-  @apply text-white;
-}
-
 .markdown code {
-  @apply text-black font-mono inline bg-gray-200 px-2 py-1 rounded border-gray-400 border-2;
+  @apply text-black font-mono inline bg-yellow-100 px-2 py-1 rounded border-yellow-400 border-2;
 }
 .markdown pre code {
   @apply block break-all whitespace-pre-wrap p-4 mt-2;
