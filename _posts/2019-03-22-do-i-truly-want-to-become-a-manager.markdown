@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Do I truly want to become a manager?
-category: article
+category: articles
 tags: response
 
 ---
