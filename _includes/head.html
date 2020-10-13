@@ -1,0 +1,25 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  {% seo %}
+
+  {% if page and page.image_url %}
+    <meta name="twitter:image" content="{{ page.image_url }}" />
+    <meta property="og:image" content="{{ page.image_url }}" />
+  {% else %}
+    <meta name="twitter:image" content="{{ site.image }}" />
+    <meta property="og:image" content="{{ site.image }}" />
+  {% endif %}
+
+  <link rel="stylesheet" href="/assets/css/site.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125289027-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-125289027-1');
+  </script>
+</head>
