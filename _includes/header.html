@@ -1,21 +1,26 @@
-<header>
-  <div class="bg-black flex p-8">
-    <div class="flex w-1/2">
-      <div class="">
-        <a href="/" class="text-yellow-500 hover:text-white mr-8">
-          _craig
-        </a>
+<header class="bg-indigo-600">
+  <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
+    <div class="w-full py-6 flex items-center justify-between border-b border-indigo-500 lg:border-none">
+      <div class="flex items-center">
+        <div class="hidden ml-10 space-x-8 lg:block">
+          <a href="/" class="text-base font-medium text-white hover:text-indigo-50">
+            Home
+          </a>
+          <a href="/articles" class="text-base font-medium text-white hover:text-indigo-50">
+            Articles
+          </a>
+        </div>
       </div>
-      <div class="">
-        <a href="/articles" class="text-yellow-500 hover:text-white mr-2">
-          Articles
-        </a>
+      <div class="ml-10 space-x-4">
+        <span class="text-base font-medium text-white hover:text-indigo-50">
+          {{ site.email }}
+        </span>
       </div>
     </div>
-    <div class="w-1/2 text-right">
-      <span class="text-yellow-500 hover:text-white mr-2">
-        cspetterson@hey.com
-      </span>
+    <div class="py-4 flex flex-wrap justify-center space-x-6 lg:hidden">
+      <a href="/" class="text-base font-medium text-white hover:text-indigo-50">
+        Home
+      </a>
     </div>
-  </div>
+  </nav>
 </header>
