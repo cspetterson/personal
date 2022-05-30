@@ -1,0 +1,15 @@
+---
+layout: default
+title: Jottings
+
+---
+
+{% for post in site.categories['jottings'] %}
+  <h3>
+    {{ post.title }}
+  </h3>
+  {{ post.excerpt }}
+  <a href="{{ post.url }}">
+    Read more...
+  </a>
+{% endfor %}
