@@ -49,17 +49,3 @@ allowed to do them and often I'd agree.
 > [...] included a hanging rope in the welcome kit
 
 **More to come...**
-
-3. The menu is omakase
-
-4. No one paradigm
-
-5. Exalt beautiful code
-
-6. Provide sharp knives
-
-7. Value integrated systems
-
-8. Progress over stability
-
-9. Push up a big tent
