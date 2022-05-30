@@ -4,12 +4,19 @@ title: Jottings
 
 ---
 
-{% for post in site.categories['jottings'] %}
-  <h3>
-    {{ post.title }}
-  </h3>
-  {{ post.excerpt }}
-  <a href="{{ post.url }}">
-    Read more...
-  </a>
-{% endfor %}
+<ul class="list-none divide-y divide-gray-200">
+  {% for post in site.categories['jottings'] %}
+    <li>
+      <h3>
+        {{ post.title }}
+      </h3>
+      <p class="text-sm">
+        {{ post.date | date: "%-d %B %Y" }}
+      </p>
+      {{ post.excerpt }}
+      <a href="{{ post.url }}">
+        Read more...
+      </a>
+    </li>
+  {% endfor %}
+</ul>
