@@ -37,6 +37,7 @@ plugins:
   - jekyll-postcss-v2
   - jekyll-purgecss
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 postcss:
   cache: false
