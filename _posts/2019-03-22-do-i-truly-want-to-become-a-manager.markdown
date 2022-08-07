@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: Do I truly want to become a manager?
 category: articles
 tags: response

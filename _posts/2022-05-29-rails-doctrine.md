@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 category: jottings
 tags: jottings
 

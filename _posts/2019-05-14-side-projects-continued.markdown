@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: Side Projects continued...
 category: ideas
 tags: ideas
