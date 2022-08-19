@@ -3,12 +3,21 @@ layout: default
 title: Contact
 
 ---
+<script src="https://www.google.com/recaptcha/enterprise.js?render=6LfFiI8hAAAAAGwZOz43JZR6D5QhShF_ZlUz-7xG"></script>
+<script>
+grecaptcha.enterprise.ready(function() {
+  grecaptcha.enterprise.execute('6LfFiI8hAAAAAGwZOz43JZR6D5QhShF_ZlUz-7xG', { action: 'contact' }).then(function(token) {
+   document.getElementById('captchaResponse').value = token;
+  });
+});
+</script>
 
 <div class="flex justify-center">
   {% include svg/socials.html %}
 </div>
 
 <form class="space-y-8" action="https://getform.io/f/eba3c660-3bdc-484b-979d-b458a2a38513" method="POST">
+  <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
   <div class="space-y-8">
     <div class="pt-8">
       <div class="mt-6 grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6">
