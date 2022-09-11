@@ -57,7 +57,32 @@
         {% include header.html %}
 
         <!-- Projects -->
-        {% include projects.html %}
+        <div class="mx-auto max-w-7xl py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
+          <div class="lg:text-center">
+            <p class="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+              Projects
+            </p>
+            <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+              A few things I've worked on
+            </h3>
+            <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
+              If you want to work with me — get in touch!
+            </p>
+          </div>
+          <div class="max-w-xl mx-auto mt-8 flow-root lg:mt-10">
+            <div class="-mt-4 -ml-8 flex flex-wrap justify-between lg:-ml-4">
+              <div class="mt-4 ml-8 flex flex-shrink-0 flex-grow lg:ml-4 lg:flex-grow-0">
+                {% include svg/pandle.svg %}
+              </div>
+              <div class="mt-4 ml-8 flex flex-shrink-0 flex-grow lg:ml-4 lg:flex-grow-0">
+                {% include svg/doorflow.svg %}
+              </div>
+              <div class="mt-4 ml-8 flex flex-shrink-0 flex-grow lg:ml-4 lg:flex-grow-0">
+                {% include svg/zapnito.svg %}
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- END Projects -->
 
         <!-- Article -->
