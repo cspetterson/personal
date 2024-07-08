@@ -3,10 +3,10 @@ layout: article
 category: articles
 tags: technical
 
-title: "Installing TailwindCSS"
+title: "Install TailwindCSS with Ruby on Rails"
 ---
 
-I followed the steps on the Tailwind website to [Install Tailwind CSS with Ruby on Rails](https://tailwindcss.com/docs/guides/ruby-on-rails)
+I followed the steps on the Tailwind website to [Install TailwindCSS with Ruby on Rails](https://tailwindcss.com/docs/guides/ruby-on-rails)
 
 When I ran `bin/dev`, I had an issue with `foreman`...
 
@@ -82,33 +82,10 @@ Rebuilding...
 Done in 716ms.
 ```
 
-Maybe I’m biased because it’s no extra effort for me, since I use tmuxinator and open my projects with a single command.
-
-<details>
-  <summary>
-    See an example of my tmux profile:
-  </summary>
-
-```
-name: my-profile-name
-root: ~/workspace/my-project-name
-
-windows:
-  - editor:
-      layout: main-vertical
-      panes:
-        - vim
-  - server:
-      layout: tiled
-      panes:
-        - bin/rails s
-        - bin/rails tailwindcss:watch
-```
-</details>
-
-By putting them in separate panes, I was able to completely delete the `bin/dev` and `Procfile.dev` files from my codebase.
+Maybe I’m biased because it’s no extra effort for me, since I use tmuxinator and open my projects with a single command. By putting them in separate panes, I was able to completely delete the `bin/dev` and `Procfile.dev` files from my codebase.
 
 ### Notes
 * For me, using a `bin/dev` command when I'm used to doing `bin/rails` isn't worth it. I imagine it's worth it for teams or projects with more commands.
 * I probably need to update my gem paths, so that running commands like foreman just works straight away.
 * I really love just having a simple tmux command to run ever process when I start developing.
+* I really love removing fluff like this from my projects.
