@@ -18,6 +18,4 @@ As an example, if I wanted to check out my model's `column` attribute for any `w
 Model.where("column::jsonb -> widgets @> ?", [{ "type" => "widget_name" }].to_json)
 ```
 
-<sub>
-I original thought the column was a `jsonb` type. It was not, but I was able to cast it to `jsonb` using `column::jsonb`. Without casting it to `jsonb` this would raise operation errors: `operator does not exist: json @> unknown`
-</sub>
+I original thought the column _was_ a `jsonb` type. It was not, but I was able to cast it to `jsonb` using `column::jsonb`. Without casting it to `jsonb` this would raise operation errors: `operator does not exist: json @> unknown`
