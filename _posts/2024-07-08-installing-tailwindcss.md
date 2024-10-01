@@ -3,7 +3,7 @@ layout: article
 category: articles
 tags: technical
 
-title: "Install TailwindCSS with Ruby on Rails"
+title: "Foreman error when installing TailwindCSS"
 ---
 
 I followed the steps on the Tailwind website to [Install TailwindCSS with Ruby on Rails](https://tailwindcss.com/docs/guides/ruby-on-rails)
