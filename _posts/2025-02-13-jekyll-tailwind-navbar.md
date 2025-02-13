@@ -6,14 +6,16 @@ tags: technical
 title: "Jekyll Tailwind Navbar"
 ---
 
+I wanted to update the navbar on my personal website. I think it looked fine, but there were some issues on smaller screens and mobile. 
+
 _I've seen other examples of people using these navbars in more complex (and reasonable) ways, such as in full Rails applications using StimulusJS. If that's your use case, then this article is not for you. You may want to check out Matt Swanson's [Tailwind style CSS transitions with StimulusJS](https://boringrails.com/articles/tailwind-style-css-transitions-with-stimulusjs/) article or even Chris Oliver's [tailwindcss-stimulus-components](https://github.com/excid3/tailwindcss-stimulus-components) package for simple Tailwind components like this._
 
-I wanted to update the navbar on my personal website. I think it looked fine, but there were some issues on smaller screens and mobile. Here's a couple of examples of what I mean:
+Here's a couple of examples of what I mean:
 
 <img width="1416" alt="Screenshot 2025-02-08 at 00 24 32" src="https://github.com/user-attachments/assets/301343a7-bbd2-4aec-bfd5-dd38cf83bfe4" />
-<img src="https://github.com/user-attachments/assets/db90788a-1f73-47f0-aafb-73936c577dff" width="30%"></img>
-<img src="https://github.com/user-attachments/assets/0bc45ac3-31c7-45ea-bc6f-78e402f1ecfa" width="30%"></img>
-<img src="https://github.com/user-attachments/assets/1992ee31-1b4c-4898-80d3-d899c8f7098d" width="30%"></img>
+<img src="https://github.com/user-attachments/assets/db90788a-1f73-47f0-aafb-73936c577dff" width="30%" />
+<img src="https://github.com/user-attachments/assets/0bc45ac3-31c7-45ea-bc6f-78e402f1ecfa" width="30%" />
+<img src="https://github.com/user-attachments/assets/1992ee31-1b4c-4898-80d3-d899c8f7098d" width="30%" />
 
 I've used a [Tailwind UI component](https://tailwindui.com/components/application-ui/navigation/navbars#component-aaed25b299f2015d2c4276b98d463cee), with a few tweaks. This component even had other dropdown elements that I removed and did not even consider.
 
@@ -35,7 +37,7 @@ I use Jekyll and the navbar is on every page of my personal website, so I added 
 </script>
 ```
 
-A very simple, add and remove the `hover` class from the relevant elements.
+A very simple, add and remove the `hidden` class from the relevant elements.
 
 ### The end result
 
@@ -51,9 +53,7 @@ Collapsed:
 
 <img width="377" alt="Screenshot 2025-02-09 at 17 10 46" src="https://github.com/user-attachments/assets/91332f33-077b-4da3-aa63-e98a4fb55629" />
 
-Video:
-
-https://github.com/user-attachments/assets/7f195ab3-1293-4a24-add6-3ebaf4942047
+Video: [click for Github link!](https://github.com/user-attachments/assets/7f195ab3-1293-4a24-add6-3ebaf4942047)
 
 ### Some gotchas
 * The component already came with `mobile-menu`, but I had to add `menu-toggle` myself.
