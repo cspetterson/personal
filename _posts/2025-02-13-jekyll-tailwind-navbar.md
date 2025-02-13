@@ -19,7 +19,7 @@ Here's a couple of examples of what I mean:
 
 I've used a [Tailwind UI component](https://tailwindui.com/components/application-ui/navigation/navbars#component-aaed25b299f2015d2c4276b98d463cee), with a few tweaks. This component even had other dropdown elements that I removed and did not even consider.
 
-The main change was that this was mobile friendly and required javascript, which Tailwind do not provide. _(Source: https://tailwindui.com/documentation#using-html-and-your-own-js)_
+The main change was that this was mobile friendly and required javascript, which Tailwind do not provide. _([Source](https://tailwindui.com/documentation#using-html-and-your-own-js))_
 
 It's very minor, but that's why this article exists. The navbar component comes with lots of extra confusing code, but it's actually quite simple. A standard nav, a mobile/smaller screen and a typical burger (3 line SVG), all with some premade classes and styles.
 
