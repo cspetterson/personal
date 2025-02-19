@@ -1,6 +1,6 @@
 ---
 layout: article
-category: question
+category: questions
 tags: technical, interview
 
 title: "Interview Question: How would you ensure data integrity across multiple threads/workers?"
@@ -10,7 +10,7 @@ At the end of May 2024, a recruiter contacted me for a job. For this particular 
 
 _I never heard back from them._
 
-Maybe my answers are lacking and can be improved. I'll be sharing each question separately, but I'm open to feedback.
+Maybe my answers are lacking and can be improved. I'll be sharing each question separately, but I'm open to feedback. Roast me!
 
 ### How would you ensure data integrity across multiple threads/workers within one SaaS application? For example background processing tool is scheduled twice to execute the same action (for example reduction of product's price), how can we prevent duplicated price changes?
 
