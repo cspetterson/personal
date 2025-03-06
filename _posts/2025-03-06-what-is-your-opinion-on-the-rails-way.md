@@ -3,7 +3,7 @@ layout: article
 category: questions
 tags: technical, interview
 
-title: "Interview Question: What is your opinion on The Rails Way?"
+title: "What is your opinion on The Rails Way?"
 ---
 
 At the end of May 2024, a recruiter contacted me for a job. For this particular job, the company wanted me to answer 5 questions alongside receiving my CV. Having to jump through these kinds of hoops (albeit sounding quite small), has always been a terrible experience for me.
@@ -13,6 +13,8 @@ _I never heard back from them._
 Maybe my answers are lacking and can be improved. I'll be sharing each question separately, but I'm open to feedback. Roast me!
 
 This article is part of a short series of questions. This is part 3. For other questions, see [the end of this article](#questions).
+
+Not to be confused with the "The Rails Way" book by Obie Fernandez, this question is asking for my opinion on the Rails way of developing applications.
 
 ### What is your opinion about the rails-way approach to designing and implementing an application with complex business requirements?
 
@@ -28,6 +30,6 @@ Keeping code in a simple MVC style, making use of concerns and POROs can take a 
 
 This article is part of a short series of questions.
 
-1. How would you ensure data integrity across multiple threads/workers? [See answer](https://craigpetterson.co.uk/questions/2025/02/19/interview-question-data-integrity-across-threads.html)
+1. How would you ensure data integrity across multiple threads/workers? [See answer](https://craigpetterson.co.uk/questions/2025/02/19/data-integrity-across-threads.html)
 2. What steps would you take to avoid system failure or degraded performance? [See answer](https://craigpetterson.co.uk/questions/2025/02/26/what-steps-would-you-take-to-avoid-degraded-performance.html)
 3. What is your opinion on The Rails Way? [See answer](https://craigpetterson.co.uk/questions/2025/03/06/what-is-your-opinion-on-the-rails-way.html)
