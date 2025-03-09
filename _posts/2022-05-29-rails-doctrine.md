@@ -40,11 +40,7 @@ If you don't have to worry about these conventions, your time and energy can be 
 
 **6. Provide sharp knives**
 
-The doctrine definitely includes some "out there" quotes, including ones that
-
-let programmers do dangerous things. It's argued that programmers should be
-
-allowed to do them and often I'd agree.
+The doctrine definitely includes some "out there" quotes, including ones that let programmers do dangerous things. It's argued that programmers should be allowed to do them and often I'd agree.
 
 > [...] included a hanging rope in the welcome kit
 
