@@ -30,6 +30,9 @@ twitter:
   username: JalisoCSP
 github_username:  JalisoCSP
 
+collections:
+  - testimonials
+
 # Build settings
 theme: minima
 plugins:
