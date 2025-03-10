@@ -3,7 +3,7 @@ layout: article
 category: questions
 tags: technical, interview
 
-title: "What do you use to optimize database performance in a Ruby on Rails application?"
+title: "What do you use to optimise database performance in a Ruby on Rails application?"
 ---
 
 At the end of May 2024, a recruiter contacted me for a job. For this particular job, the company wanted me to answer 5 questions alongside receiving my CV. Having to jump through these kinds of hoops (albeit sounding quite small), has always been a terrible experience for me.
@@ -14,7 +14,7 @@ Maybe my answers are lacking and can be improved. I'll be sharing each question 
 
 This article is part of a short series of questions. This is part 4. For other questions, see [the end of this article](#questions).
 
-### What tools, techniques or best practices do you use to optimize database performance in a Ruby on Rails application, especially when dealing with complex data models?
+### What tools, techniques or best practices do you use to optimise database performance in a Ruby on Rails application, especially when dealing with complex data models?
 
 When building software, I like to make sure that I've the correct indexes are added and the query is correctly configured to eager load associations to reduce or prevent N+1 queries. Typically, I've used the `bullet` gem for this in the past.
 
@@ -28,4 +28,4 @@ This article is part of a short series of questions.
 1. How would you ensure data integrity across multiple threads/workers? [See answer](https://craigpetterson.co.uk/questions/2025/02/19/data-integrity-across-threads.html)
 2. What steps would you take to avoid system failure or degraded performance? [See answer](https://craigpetterson.co.uk/questions/2025/02/26/what-steps-would-you-take-to-avoid-degraded-performance.html)
 3. What is your opinion on The Rails Way? [See answer](https://craigpetterson.co.uk/questions/2025/03/06/what-is-your-opinion-on-the-rails-way.html)
-4. What do you use to optimize database performance in a Ruby on Rails application? [See answer](https://craigpetterson.co.uk/questions/2025/03/10/tools-for-database-performance.html)
+4. What do you use to optimise database performance in a Ruby on Rails application? [See answer](https://craigpetterson.co.uk/questions/2025/03/10/optimise-database-performance.html)
