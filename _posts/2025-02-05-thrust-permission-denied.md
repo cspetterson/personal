@@ -1,6 +1,5 @@
 ---
 layout: article
-category: articles
 tags: technical
 
 title: "/rails/bin/thrust: Permission denied"

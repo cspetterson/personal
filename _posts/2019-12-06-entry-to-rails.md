@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "Entry to Rails"
 created_at: 2019-12-06T04:27:50.000Z

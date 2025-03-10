@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "Rewritten Cooking Section"
 created_at: 2019-06-03T00:29:21.000Z

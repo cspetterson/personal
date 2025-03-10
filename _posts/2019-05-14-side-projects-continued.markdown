@@ -1,8 +1,7 @@
 ---
 layout: article
 title: Side Projects continued...
-category: ideas
-tags: ideas
+tags: idea
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "Hey, I'm Craig and I'm Casual"
 created_at: 2019-07-07T09:01:09.000Z

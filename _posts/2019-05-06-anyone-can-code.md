@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "Anyone can code"
 created_at: 2019-05-06T18:20:52.000Z
@@ -19,7 +18,7 @@ For showing different colours on my old habits page, I use a simple condition:
 
 **English**:
 
-If value is greater than 0, then show green span, else show red span.
+If value is greater than 0, then show a green span, else show a red span.
 
 **Ruby**:
 

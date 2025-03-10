@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "Nobody can code"
 created_at: 2019-05-07T06:16:13.000Z

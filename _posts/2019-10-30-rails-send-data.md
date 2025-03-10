@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "Rails: send_data"
 created_at: 2019-10-30T04:28:27.000Z

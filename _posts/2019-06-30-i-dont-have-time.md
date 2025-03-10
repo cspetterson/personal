@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "I don't have time"
 created_at: 2019-06-30T00:47:33.000Z

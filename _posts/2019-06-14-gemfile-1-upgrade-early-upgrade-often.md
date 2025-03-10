@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "Gemfile #1: Upgrade Early, Upgrade Often"
 created_at: 2019-06-14T06:17:22.000Z

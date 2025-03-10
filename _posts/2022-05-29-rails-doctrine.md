@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "Rails Doctrine"
 created_at: 2019-12-06T05:11:36.000Z

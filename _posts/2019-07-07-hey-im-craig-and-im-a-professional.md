@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "Hey, I'm Craig and I'm a Professional"
 created_at: 2019-07-07T08:07:52.000Z

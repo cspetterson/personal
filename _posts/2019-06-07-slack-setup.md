@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "Slack Setup"
 created_at: 2019-06-07T06:40:26.000Z

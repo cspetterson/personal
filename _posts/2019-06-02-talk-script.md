@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal, talk
 
 title: "Talk Script"
 created_at: 2019-06-02T07:45:15.000Z

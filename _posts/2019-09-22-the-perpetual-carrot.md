@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "The Perpetual Carrot"
 created_at: 2019-09-22T06:11:22.000Z
@@ -11,8 +10,8 @@ This is the title of another article I've wanted to write for a long time. I've 
 
 I've previously had arbitrary goals:
 
-*   a house by time I'm 30
-*   A salary of £30k per year by time I'm 30
+* a house by time I'm 30
+* a salary of £30k per year by time I'm 30
 
 Amongst others, by why were these significant? No reason in particular, they just seemed like good goals and nice round numbers... 30 by 30... sounds stupid typing it out.
 

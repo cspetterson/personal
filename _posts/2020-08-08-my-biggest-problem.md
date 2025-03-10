@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "My Biggest Problem"
 created_at: 2020-08-08T07:14:37.000Z

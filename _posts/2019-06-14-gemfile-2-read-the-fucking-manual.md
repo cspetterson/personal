@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "Gemfile #2: Read The Fucking Manual"
 created_at: 2019-06-14T06:49:59.000Z

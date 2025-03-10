@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "Gemfile #3: Bundle"
 created_at: 2019-06-14T07:05:43.000Z

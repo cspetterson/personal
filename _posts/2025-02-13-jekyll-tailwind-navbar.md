@@ -1,6 +1,6 @@
 ---
 layout: article
-category: articles
+category: homepage
 tags: technical
 
 title: "Jekyll Tailwind Navbar"

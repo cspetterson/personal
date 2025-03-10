@@ -1,7 +1,7 @@
 ---
 layout: article
-category: articles
-tags: technical
+category: homepage
+tags: technical, journal
 
 ---
 

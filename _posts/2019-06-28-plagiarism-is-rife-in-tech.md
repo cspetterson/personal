@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "Plagiarism is rife in tech"
 created_at: 2019-06-28T07:13:52.000Z

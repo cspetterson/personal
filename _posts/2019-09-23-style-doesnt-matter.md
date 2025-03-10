@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "Style doesn't matter"
 created_at: 2019-09-23T06:13:45.000Z

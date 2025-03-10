@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "It’s my fault"
 created_at: 2020-01-12T07:16:40.000Z

@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "Just and It"
 created_at: 2019-07-20T06:14:07.000Z

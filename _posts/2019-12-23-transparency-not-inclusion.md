@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "Transparency, not Inclusion"
 created_at: 2019-12-23T00:56:57.000Z

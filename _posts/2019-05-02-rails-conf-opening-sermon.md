@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "Rails Conf Opening Sermon"
 created_at: 2019-05-02T06:22:31.000Z

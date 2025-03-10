@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "Flutter in 3 Minutes"
 created_at: 2019-08-13T06:19:28.000Z

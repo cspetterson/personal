@@ -1,7 +1,6 @@
 ---
 layout: article
-category: jottings
-tags: jottings
+tags: journal
 
 title: "I hate DevOps"
 created_at: 2019-08-08T07:12:36.000Z
