@@ -34,3 +34,4 @@ This article is part of a short series of questions.
 2. What steps would you take to avoid system failure or degraded performance? [See answer](https://craigpetterson.co.uk/questions/2025/02/26/what-steps-would-you-take-to-avoid-degraded-performance.html)
 3. What is your opinion on The Rails Way? [See answer](https://craigpetterson.co.uk/questions/2025/03/06/what-is-your-opinion-on-the-rails-way.html)
 4. What do you use to optimise database performance in a Ruby on Rails application? [See answer](https://craigpetterson.co.uk/questions/2025/03/10/optimise-database-performance.html)
+5. When do you decide to refactor code? [See answer](https://craigpetterson.co.uk/questions/2025/03/10/when-do-you-refactor-code.html)
