@@ -58,7 +58,7 @@ Video: [click for Github link!](https://github.com/user-attachments/assets/7f195
 ### Some gotchas
 * The component already came with `mobile-menu`, but I had to add `menu-toggle` myself.
 * I had issues with the hover effect on the smaller menu. I noticed this on my laptop, in a "mobile view" in my browser, so I didn't fix this at all. I figured anyone on mobile wouldn't be hovering.
-* Worth testing this on your mobile. I noticed that the menu doesn't show at all on mobile anyway. I'm using an iPhone 15 Pro Max. (I'll get round to fixing this at some point and maybe I'll update this article with those changes too)
+* Worth testing this on your mobile. I noticed that the burger icon didn't show at all without passing `height` and `width` options to the SVG icons.
 
 ### TL:DR
 
