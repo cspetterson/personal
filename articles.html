@@ -4,18 +4,13 @@ title: Articles
 
 ---
 
-<ul class="list-none divide-y divide-gray-200">
+<ul class="list-none">
   {% for post in site.posts %}
     <li>
-      <h3>
-        {{ post.title }}
-      </h3>
-      <p class="text-sm">
-        {{ post.date | date: "%-d %B %Y" }}
-      </p>
-      {{ post.excerpt }}
+      {{ post.date | date: "%-d %B %Y" }}
+      &bull;
       <a href="{{ post.url }}">
-        Read more...
+        {{ post.title }}
       </a>
     </li>
   {% endfor %}
