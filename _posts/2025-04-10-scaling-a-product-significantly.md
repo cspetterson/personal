@@ -10,7 +10,7 @@ The most recent scaling challenge was onboarding a major client at Zapnito where
 
 Our email startegy also needed reworking, as we now send over 1.2 million user-specific emails every monthly. On our accountancy platform, end of year financial deadlines were particuarly high demand tasks which required making third-party APIs resilient with retries and failure handling.
 
-To address these problems, the teams user several strategies:
+To address these problems, the teams used several strategies:
 * Performance Monitoring: Tools like New Relic and Skylight highlighted high-impact queries for use to prioritise refactoring. This work also included utilising tools for development that revealed problems, such as rack-mini-profiler and bullet.
 * Background Jobs: Slower processes were shifted to background jobs where appropriate.
 * Benchmarking: Queries were optimised to meet often quite strict performance benchmarks.
