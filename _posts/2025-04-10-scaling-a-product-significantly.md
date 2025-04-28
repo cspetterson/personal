@@ -6,7 +6,7 @@ tags: technical, interview
 title: "Can you provide an example of a project where you delivered a product that had to scale significantly? What strategies did you use to ensure its success?"
 ---
 
-The most recent scaling challenge was onboarding a major client at Zapnito where infrastructure demands grew exponentially. While our initially response was to increase our infrastructure, we realised that we could make significant improvements internally.
+The most recent scaling challenge was onboarding a major client where infrastructure demands grew exponentially. While our initially response was to increase our infrastructure, we realised that we could make significant improvements internally.
 
 Our email startegy also needed reworking, as we now send over 1.2 million user-specific emails every monthly. On our accountancy platform, end of year financial deadlines were particuarly high demand tasks which required making third-party APIs resilient with retries and failure handling.
 
