@@ -309,9 +309,11 @@ title: Mentorship
         </dl>
       </div>
     </div>
+
     <form action="#" method="POST" class="px-6 pt-20 pb-24 sm:pb-32 lg:px-8 lg:py-48">
       <div class="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
         <div class="grid grid-cols-1 gap-x-8 gap-y-6">
+
           <div>
             <label for="first-name" class="block text-sm font-semibold text-gray-900">
               Name
@@ -320,6 +322,7 @@ title: Mentorship
               <input type="text" name="first-name" id="first-name" autocomplete="name" class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
             </div>
           </div>
+
           <div>
             <label for="email" class="block text-sm font-semibold text-gray-900">
               Email
@@ -328,6 +331,34 @@ title: Mentorship
               <input type="email" name="email" id="email" autocomplete="email" class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
             </div>
           </div>
+
+          <div>
+            <label for="experience" class="block text-sm font-semibold text-gray-900">
+              Experience Level
+            </label>
+            <div class="mt-2.5 relative">
+              <select name="experience" id="experience" class="appearance-none block w-full rounded-md bg-white px-3.5 py-2 pr-10 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
+                <option value="Junior">Junior</option>
+                <option value="Mid">Mid</option>
+                <option value="Senior">Senior or above</option>
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3">
+                <svg class="h-4 w-4 text-gray-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.188l3.71-3.96a.75.75 0 111.08 1.04l-4.25 4.53a.75.75 0 01-1.08 0L5.21 8.27a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <label for="help-with" class="block text-sm font-semibold text-gray-900">
+              Looking for help with
+            </label>
+            <div class="mt-2.5">
+              <input type="help-with" name="help-with" id="email" class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
+            </div>
+          </div>
+
           <div>
             <label for="message" class="block text-sm font-semibold text-gray-900">
               Message
@@ -337,7 +368,9 @@ title: Mentorship
               </textarea>
             </div>
           </div>
+
         </div>
+
         <div class="mt-8 flex justify-end">
           <button type="submit" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
             Send message
@@ -345,5 +378,6 @@ title: Mentorship
         </div>
       </div>
     </form>
+
   </div>
 </div>
